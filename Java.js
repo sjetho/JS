@@ -52,11 +52,33 @@
 //     }
 // }
 
-var lottoNums = [];
+// var lottoNums = [];
 
-lottoNums.push(3)
-    console.log(lottoNums);
+// lottoNums.push(3)
+//     console.log(lottoNums);
 
-lottoNums.push(34)
-    console.log(lottoNums);
+// lottoNums.push(34)
+//     console.log(lottoNums);
 
+// var lottoNums = [23, 11, 43, 19, 37, 16];
+
+// console.log(lottoNums[2]);
+
+var lottoNums = [23, 11, 43, 19, 37, 16];
+
+// console.log(lottoNums[20]);
+
+// lottoNums[1] = 4;
+// console.log(lottoNums);
+
+// lottoNums.shift()
+
+// console.log(lottoNums);
+
+// var newNum = lottoNums.slice(2, 3);
+// console.log(newNum);
+// console.log(lottoNums);
+
+// var newNum = lottoNums.splice(2, 3);
+// console.log(newNum);
+// console.log(lottoNums);
