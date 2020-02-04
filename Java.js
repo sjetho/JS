@@ -82,3 +82,9 @@ var lottoNums = [23, 11, 43, 19, 37, 16];
 // var newNum = lottoNums.splice(2, 3);
 // console.log(newNum);
 // console.log(lottoNums);
+
+function hello (name) {
+    var output = 'Hello ' + name;
+    console.log(output);
+    return output;
+  }
