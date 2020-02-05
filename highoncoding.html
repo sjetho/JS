@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            background-color: rgb(0, 140, 255);
+            color: white;
+            min-height: 100px;
+            text-align: left;
+            padding: 15px;
+        }
+
+        .title{
+            font-size: 20px;
+            margin-right: 70px;
+            height: 50px;
+        }
+
+        .home{
+            font-size: 15px;
+            margin-right: 70px;
+            margin-top: 16px;
+        }
+
+        .cat{
+            font-size: 15px;
+            font-weight: 100;
+            font-weight: 50;
+            margin-top: 16px;
+        }
+
+        .div1{
+            background-color: lightgrey;
+            margin: 30px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 200px;
+            max-width: 100%;
+        }
+
+        .curse{
+            margin-left: 10px;
+
+        }
+
+        .curseBody{
+            margin-left: 10px
+        }
+
+        .div2{
+            margin: 30px;
+            margin-left: 30px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100px;
+            max-width: 100%;
+        }
+
+        .hello{
+            color: blue;
+            font-size: 13px;
+        }
+
+        .helloBody{
+            color: black;
+            min-height: 50px;
+        }
+
+        .helloFooter{
+            background-color: rgb(235, 127, 39);
+            max-width: 100%;
+
+        }
+
+    </style>
+</head>
+<body class="body">
+    <div class="container">
+    </div>
+    <script>
+        var headerDiv = document.createElement('div');
+        headerDiv.setAttribute("class", "header");
+        var containerDiv = document.querySelector('.container');
+        containerDiv.append(headerDiv);
+
+        var titleDiv = document.createElement('div')
+        titleDiv.setAttribute("class", "title")
+        titleDiv.innerHTML = "<h1>HighOnCoding</h1>"
+        var containerDiv = document.querySelectorAll('.header');
+        headerDiv.append(titleDiv);
+
+        var homeDiv = document.createElement('div')
+        homeDiv.setAttribute("class", "home")
+        homeDiv.innerHTML = "<h1>Home</h1>"
+        var containerDiv = document.querySelectorAll('.header');
+        headerDiv.append(homeDiv);
+
+        var catDiv = document.createElement('div')
+        catDiv.setAttribute("class", "cat")
+        catDiv.innerHTML = "<h1>Categories</h1>"
+        var containerDiv = document.querySelectorAll('.header');
+        headerDiv.append(catDiv);
+
+        var Div1 = document.createElement('div');
+        Div1.setAttribute("class", "div1");
+        var containerDiv = document.querySelector('.container');
+        containerDiv.append(Div1);
+
+        var curseDiv = document.createElement('div')
+        curseDiv.setAttribute("class", "curse")
+        curseDiv.innerHTML = "<h1>Curse of the Current Reviews</h1>"
+        var containerDiv = document.querySelectorAll('.Div1');
+        Div1.append(curseDiv);
+
+        var curseBody = document.createElement('div')
+        curseBody.setAttribute("class", "curseBody")
+        curseBody.innerHTML = "<p>When you want ot buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot and reviews</p>"
+        var containerDiv = document.querySelectorAll('.Div1');
+        Div1.append(curseBody);
+
+        var Div2 = document.createElement('div');
+        Div2.setAttribute("class", "div2");
+        var containerDiv = document.querySelector('.container');
+        containerDiv.append(Div2);
+
+        var hello = document.createElement('div')
+        hello.setAttribute("class", "hello")
+        hello.innerHTML = "<h1>Hello WatchKit</h1>"
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div2.append(hello);
+
+        var helloBody = document.createElement('div')
+        helloBody.setAttribute("class", "helloBody")
+        helloBody.innerHTML = "<p>Last month Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit Framework enables developers to create Apple Watch applications. In this aticle we are going to focus on the basics of getting started with the WatchKit Framework and developing apps for the Apple Watch.<p>"
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div2.append(helloBody);
+
+        var helloFooter = document.createElement('div')
+        helloFooter.setAttribute("class", "helloFooter")
+        helloFooter.innerHTML = "<p>12 comments     124 likes<p>"
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div2.append(helloFooter);
+
+        var Div3 = document.createElement('div');
+        Div3.setAttribute("class", "div2");
+        var containerDiv = document.querySelector('.container');
+        containerDiv.append(Div3);
+
+        var Intro = document.createElement('div')
+        Intro.setAttribute("class", "hello")
+        Intro.innerHTML = "<h1>Introduction to Swift</h1>"
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div3.append(Intro);
+
+        var IntroBody = document.createElement('div')
+        IntroBody.setAttribute("class", "helloBody")
+        IntroBody.textContent =`Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications. Swift is a fairly new language and still in development but it clearly reflects
+        the intentions and future direction. This article will revolve around the basic concepts in the Swift language and how you can get started.`
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div3.append(IntroBody);
+
+        var IntroFooter = document.createElement('div')
+        IntroFooter.setAttribute("class", "helloFooter")
+        IntroFooter.innerHTML = "<p>15 comments     45 likes<p>"
+        // var containerDiv = document.querySelectorAll('.Div2');
+        Div3.append(IntroFooter);
+
+    </script>
+</body>
+</html>
