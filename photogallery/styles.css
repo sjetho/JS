@@ -1,0 +1,43 @@
+.body-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(158, 44, 15);
+  /*   padding: 40px; */
+  }
+  
+  .nav-item {
+    display: block; 
+    width: 70px;
+    max-height: 70px;
+  }
+  
+  /* 
+  Proportionally adapt image to its container.
+  That is, assume container controls the actual size.
+  */
+  img {
+    width: 100%;
+  }
+  
+  .content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+  }
+  
+  .main-image {
+    display: block;
+    width: 80%;
+  }
+  
