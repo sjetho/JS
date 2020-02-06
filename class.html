@@ -1,16 +1,48 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    .container{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list{
+        background-color: blue;
+        min-width: 100;
+    }
+    </style>
 </head>
 <body>
-    
+    <ul class="container">
+    </ul>
     <script>
-        document.body.innerHTML = 
-        "Hello World!";
+        // let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+        // let newArr = days.forEach(function(){
+        //     document.createElement('li');
+        //     newArr.setAttribute("class", "list");
+        //     var containerUl = document.querySelector('.container')
+        //     containerUl.append
+        // })
+
+        <script>
+      let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+
+      let ul = document.querySelector("ul");
+      let unneccessaryWork = function(type, list, parent) {
+        list.forEach(function(element) {
+          let li = document.createElement(type);
+          li.textContent = element;
+          parent.append(li);
+        });
+      };
+      unneccessaryWork("li", days, ul);
+    </script>
     </script>
 </body>
 </html>
