@@ -15,11 +15,19 @@
   }
   
   .nav-item {
+    background-color: black;
     display: block; 
-    width: 70px;
-    max-height: 70px;
+    padding: 20px;
+    width: 80px;
+    max-height: 100px;
   }
-  
+  .nav-item2 {
+    background-color: white;
+    display: block; 
+    padding: 20px;
+    width: 80px;
+    max-height: 100px;
+  }
   /* 
   Proportionally adapt image to its container.
   That is, assume container controls the actual size.

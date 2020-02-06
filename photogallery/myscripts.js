@@ -10,3 +10,10 @@ navItems.forEach(function (nav) {
     imgTarget.setAttribute('src', nav.getAttribute('href'));
   })
 });
+
+navItems.forEach(function (nav) {
+    nav.addEventListener('click', function (event) {
+      event.preventDefault();
+      navItems.setAttribute('src', nav.getAttribute('href'));
+    })
+  });
