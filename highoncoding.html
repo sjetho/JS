@@ -21,25 +21,24 @@
 
         .title{
             font-size: 20px;
-            margin-right: 70px;
+            margin-right: 80px;
             height: 50px;
         }
 
         .home{
             font-size: 15px;
-            margin-right: 70px;
-            margin-top: 16px;
+            margin-right: 80px;
+            margin-top: 20px;
         }
 
         .cat{
-            font-size: 15px;
-            font-weight: 100;
-            font-weight: 50;
-            margin-top: 16px;
+            font-size: 20px;
+            margin-top: 42px;
         }
 
         .div1{
             background-color: lightgrey;
+            padding: 10px;
             margin: 30px;
             color: black;
             display: flex;
@@ -58,7 +57,8 @@
         }
 
         .div2{
-            margin: 30px;
+            /* margin: 30px; */
+            padding: 10px;            
             margin-left: 30px;
             color: black;
             display: flex;
@@ -79,6 +79,8 @@
 
         .helloFooter{
             background-color: rgb(235, 127, 39);
+            text-align: left;
+            color: white;
             max-width: 100%;
 
         }
@@ -102,13 +104,13 @@
 
         var homeDiv = document.createElement('div')
         homeDiv.setAttribute("class", "home")
-        homeDiv.innerHTML = "<h1>Home</h1>"
+        homeDiv.innerHTML = "<h2>Home</h2>"
         var containerDiv = document.querySelectorAll('.header');
         headerDiv.append(homeDiv);
 
         var catDiv = document.createElement('div')
         catDiv.setAttribute("class", "cat")
-        catDiv.innerHTML = "<h1>Categories</h1>"
+        catDiv.innerHTML = "<div>Categories</div>"
         var containerDiv = document.querySelectorAll('.header');
         headerDiv.append(catDiv);
 
@@ -148,7 +150,7 @@
 
         var helloFooter = document.createElement('div')
         helloFooter.setAttribute("class", "helloFooter")
-        helloFooter.innerHTML = "<p>12 comments     124 likes<p>"
+        helloFooter.innerHTML = "<p>12 comments         124 likes<p>"
         // var containerDiv = document.querySelectorAll('.Div2');
         Div2.append(helloFooter);
 
@@ -172,7 +174,7 @@
 
         var IntroFooter = document.createElement('div')
         IntroFooter.setAttribute("class", "helloFooter")
-        IntroFooter.innerHTML = "<p>15 comments     45 likes<p>"
+        IntroFooter.innerHTML = "<p>15 comments         45 likes<p>"
         // var containerDiv = document.querySelectorAll('.Div2');
         Div3.append(IntroFooter);
 
