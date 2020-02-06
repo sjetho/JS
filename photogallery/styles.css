@@ -17,16 +17,15 @@
   .nav-item {
     background-color: black;
     display: block; 
-    padding: 20px;
-    width: 80px;
-    max-height: 100px;
+    padding: 10px;
+    width: 100px;
+    /* height: 200px; */
   }
   .nav-item2 {
     background-color: white;
     display: block; 
-    padding: 20px;
-    width: 80px;
-    max-height: 100px;
+    padding: 10px;
+    width: 100px;
   }
   /* 
   Proportionally adapt image to its container.
@@ -37,15 +36,21 @@
   }
   
   .content {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
   }
   
   .main-image {
     display: block;
-    width: 80%;
+    height: 200;
   }
   
+  .nav-item:hover {
+    background: white;
+ }
+
+  /* .nav-item:active {
+    background: white;
+ } */
