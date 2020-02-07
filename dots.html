@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dot{
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: tomato;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    nothing here to see
+    <div style="top: 5px; left: 50px;"></div>
+    <script>
+        window.addEventListener('keydown', function(e){
+            if(e.key == "s"){
+                document.body.style.backgroundColor = "tomato"
+            }
+        })
+        // window.addEventListener('click', function(e){
+        //     // console.log(e)
+        //     let dot = document.createElement('div');
+        //     dot.className = 'dot';
+        //     dot.style.left = (e.pageX -  4).toString() + 'px';
+        //     dot.style.top = (e.pageY - 4).toString() + 'px';
+        //     document.body.append(dot);
+        // })
+    </script>
+</body>
+</html>
