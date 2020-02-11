@@ -9,9 +9,9 @@
   </head>
   <body>
     <div class="bank">
-        <label style="color:white;background-color: black;">Bank:</label>
+        <label style="color:white;;">Bank: $</label>
 
-        <label id="money-amount" class="money" style="color: white;background-color: black;"></label>
+        <label id="money-amount" class="money" style="color: white;;"></label>
     </div>
 
     <div id="table">
@@ -31,10 +31,10 @@
         <button id="stand-button">Stand</button>
       </div>
       <div class="buttons2">
-        <div class="bets">
-          <label style="color: white;background-color: black;">Bet:</label>
+        <div class="bets" style="width: 200px;">
+          <label style="color: white;">Bet:</label>
 
-          <label id="bet-amount" class="bet" style="color: white;background-color: black;"></label>
+          <label id="bet-amount" class="bet" style="color: white;"></label>
         </div>
 
         <button class="up10">+ $10</button>
@@ -48,6 +48,10 @@
 
       <div id="player-hand" class="hand"></div>
     </div>
+    <audio controls autoplay>
+        <source src="Money.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
     <script src="java.js"></script>
   </body>
 </html>

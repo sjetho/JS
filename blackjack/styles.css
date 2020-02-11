@@ -117,7 +117,10 @@ body{
         }
 
     .bank {
+        background-color: black;
+        opacity: 60%;
         height: 50px;
+        width: 200px;
         font-size: 40px;
 
     }
