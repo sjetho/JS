@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bank">
+        <label style="color:white;background-color: black;">Bank:</label>
+
+        <label id="money-amount" class="money" style="color: white;background-color: black;"></label>
+    </div>
+
+    <div id="table">
+      <div id="messages"></div>
+
+      <label style="font-size: 40px;color: black;">Dealer: </label>
+
+      <label id="dealer-points" class="points" style="color: white;"></label>
+
+      <div id="dealer-hand" class="hand"></div>
+
+      <div class="buttons">
+        <button id="deal-button">Deal</button>
+
+        <button id="hit-button">Hit</button>
+
+        <button id="stand-button">Stand</button>
+      </div>
+      <div class="buttons2">
+        <div class="bets">
+          <label style="color: white;background-color: black;">Bet:</label>
+
+          <label id="bet-amount" class="bet" style="color: white;background-color: black;"></label>
+        </div>
+
+        <button class="up10">+ $10</button>
+
+        <button class="down10">- $10</button>
+      </div>
+
+      <label style="font-size: 40px; color: black;">Player: </label>
+
+      <label id="player-points" class="points" style="color: white;"></label>
+
+      <div id="player-hand" class="hand"></div>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
