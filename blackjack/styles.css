@@ -1,6 +1,7 @@
 body{
     background-image: url(Felt.jpg);
     background-size: cover;
+    margin: 0;
   }
 
   #dealer-hand {
@@ -95,11 +96,11 @@ body{
         cursor: pointer;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin: 30px;
         height: 100px;
         width: auto;
-        border-radius: 12px;
+        /* border-radius: 12px; */
       }
     
       .buttons2 button {
@@ -127,7 +128,7 @@ body{
 
     img:hover {
         /* Start the shake animation and make the animation last for 0.5 seconds */
-        animation: shake 0.5s;
+        animation: shake .7s;
       
         /* When the animation is finished, start again */
         animation-iteration-count: infinite;
@@ -160,6 +161,34 @@ body{
   .alert.warning {
     background-color: #ff9800;
   }
+
+  /* .popupcont {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .popupcont:hover .messages {
+    color: red;
+    transform: translate(0, -55vh);
+  } */
+
+  /* .messages {
+    transition: transform ease 5s;
+    position: absolute ;
+    bottom: -90px;
+    height: 70px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+  } */
+
   .closebtn {
     margin-left: 15px;
     color: white;
