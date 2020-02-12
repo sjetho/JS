@@ -7,6 +7,18 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <p id="demo">
+
+  </p>
+
+  <script>
+      try{
+        allllert('Welcome guest!')
+      }
+      catch(e){
+        let p = document.getElementById('demo')
+        p.textContent = e.message;
+      }
+  </script>
 </body>
 </html>

@@ -145,3 +145,91 @@
 // }
 
 // multiNums(4,6,7,9)
+
+// class Character{
+//     constructor(health, power){
+//         this.health = health;
+//         this.power = power;
+//     }
+//     attack = (enemy) => {
+//         enemy.health -= this.power;
+//     }
+//     print = ()=>{
+//         console.log(`The health of ${this.name} is ${this.health} and power is ${this.power}`);
+//     }
+// }
+// class Hero extends Character{
+//     constructor(health, power){
+//         super(health, power);
+//         this.name = "hero";
+//     }
+// }
+// class Goblin extends Character{
+//     constructor(health, power){
+//         super(health, power);
+//         this.name = "goblin";
+//     }
+// }
+// let hero = new Hero(10, 4);
+// let goblin = new Goblin(8, 5);
+
+// hero.attack(goblin)
+// hero.print();
+// goblin.print();
+
+
+
+// class Todo{
+
+//     constructor(description){
+//         this.description = description;
+//     }
+// }
+
+// class TodosManager{
+
+//     constructor(){
+//         this.todoArray = []
+//     }
+
+//     addTodo = (description) => {
+//         let todo = new TodosManager(description);
+
+//         this.todoArrray.push(todo);
+//     }
+
+// //     displayTodos = ()
+// }
+
+
+
+// let regx = new RegExp("digital crafts");
+
+// let regex2 = /digtal crafts/;
+
+// let someString = "sdaikjnkfjn digital crafts nofienoine ifmepkfeoifno";
+
+// let result = regex2.test(someString)
+// console.log(result);
+
+// let phonePattern = /(\d\d\d-\d\d\ )
+
+// let pattern = /\d\d\d(-)?(.)?\d\d\d(-)?(.)?\d\d\d\d/g
+// let str = "this is a phone number : 3333333333";
+// let result = str.match(pattern);
+// console.log(result);
+
+// let pattern = /Bat(wo)*man/g;
+
+// let str = "Batwoman Batman Batwowowowoman"
+
+// let result = str.match(pattern)
+// console.log(result);
+
+
+let pattern = /Bat(wo)+man/g;
+
+let str = "Batwoman Batman Batwowowowoman"
+
+let result = str.match(pattern)
+console.log(result);
