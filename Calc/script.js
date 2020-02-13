@@ -1,5 +1,6 @@
 let display = document.getElementById("input");
 let buttons = document.querySelector(".buttons");
+// let buttons = document.querySelector(".button");
 let operator1 = 0;
 let operator2 = 0;
 
@@ -52,7 +53,6 @@ buttons.addEventListener("click", function(e) {
             operator2 = 0;
             break;
         }
-
     }
 
 });
