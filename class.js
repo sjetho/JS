@@ -227,9 +227,21 @@
 // console.log(result);
 
 
-let pattern = /Bat(wo)+man/g;
+// let pattern = /Bat(wo)+man/g;
 
-let str = "Batwoman Batman Batwowowowoman"
+// let str = "Batwoman Batman Batwowowowoman"
 
-let result = str.match(pattern)
-console.log(result);
+// let result = str.match(pattern)
+// console.log(result);
+
+function Course(title, instructor, level, published, views){
+    this.title = title;
+    this.instructor = instructor;
+    this.level = level;
+    this.published = published;
+    this.views = views;  
+}
+
+var Course1 = new Course("Digital Crafts 16 Week Bootcamp", "Veronica", 1, true, 0);
+var Course2 = new Course("24 Week Flex Class", "Paul", 1, true, 0);
+var Course3 = new Course("Digital Crafts 16 Week Bootcamp", "Azam", 1, true, 0);

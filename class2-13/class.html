@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .someClass{
+            background-color: cyan;
+            font-size: 30px;
+        }
+        .myAnchor{
+            color: purple;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .myAnchor a{
+            color: purple;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .myAnchor a:hover{
+            text-decoration: underline;
+        }
+
+        .myImage{
+            background-color: yellow;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <textarea name="" id="" cols="30" rows="10">
+
+    </textarea>
+    <button id="aButton">Toggle text Field</button>
+
+    <br><br>
+    <div>Hello world</div>
+
+    <form>
+        <div>
+            <label for="choose">Would you prefer a banana or a cherry?</label>
+            <input id="choose" name="i_like" required minlength="6" maxlength="6">
+        </div>
+        <div>
+            <label for="number">How many would you like?</label>
+            <input type="number" id="number" name="amount" value="1" min="1" max="10">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+
+    <!-- <form onsubmit="myFunction()">
+        Enter name: 
+        <input type="text">
+      </form> -->
+
+      <br><br>
+
+    <form>
+        <input type="text" placeholder="email">
+        <input type="radio">
+        <input type="checkbox">
+        <input type="password">
+        <button type="submit">Done</button>
+      </form>
+
+      <form action="/action_page.js" method="POST">
+        First name:<br>
+        <input type="text" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form action="/action_page.js">
+        <fieldset>
+          <legend>Personal information:</legend>
+          First name:<br>
+          <input type="text" name="firstname" value="Mickey"><br>
+          Last name:<br>
+          <input type="text" name="lastname" value="Mouse"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+    <img src="" alt="" class="myImage">
+
+    <span id="count"></span>
+    <script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
