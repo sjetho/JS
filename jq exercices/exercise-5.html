@@ -11,17 +11,20 @@
     page in the iframe below. Set the iframe's `src` attribute to a URL will cause it to render the page.
     HINT: Lookup .attr()
     */
-    $(function() {
-      // Write code here
-    });
+    // $(document).ready(function () {
+    //   $('li href').click(()=>{
+    //     var lin = $('li href').val(),
+    //     $(iframe).attr('src', lin);
+    //   })
+    // })
     </script>
   </head>
   <body>
     <ul>
-      <li><a href="http://hellohappy.org">Hello Happy</a></li>
-      <li><a href="http://duckduckgo.com">DuckDuckGo</a></li>
-      <li><a href="http://css-tricks.com">CSS Tricks</a></li>
+      <li><a href="http://hellohappy.org" target="iframe">Hello Happy</a></li>
+      <li><a href="https://picsum.photos/" target="iframe">Lorem Picsum</a></li>
+      <li><a href="http://css-tricks.com" target="iframe">CSS Tricks</a></li>
     </ul>
-    <iframe id="iframe" src="http://hellohappy.org" width="800" height="480"></iframe>
+    <iframe name="iframe" src="https://picsum.photos/1000/680" width="1000" height="680"></iframe>
   </body>
 </html>
