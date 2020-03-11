@@ -4,7 +4,10 @@ const router = express.Router();
 
 router.get('/dishes', (req,res) => {
 
-    db.query(SELECT * rest)
+    db.query(SELECT * FROM rest)
+        .then((results) => {
+            res.render('dishes', )
+        }
 
     res.render('dishes')
 })
