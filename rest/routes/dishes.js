@@ -10,6 +10,6 @@ router.get('/dishes', (req,res) => {
         }
 
     res.render('dishes')
-})
+)
 
 module.exports = router;
